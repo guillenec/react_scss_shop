@@ -1,0 +1,25 @@
+.App{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    .header, 
+    .main, 
+    .footer {
+        @include anchoGeneral();
+    }
+
+    .header {
+        height: 80px;
+    }
+    .main{
+        height:calc(100vh - 220px);
+    }
+    .footer{
+        height: 100px;
+    }
+}

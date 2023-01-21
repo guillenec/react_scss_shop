@@ -1,0 +1,24 @@
+//Funcionara ciomo el main, importare todos mis scss aqui use == inport
+
+// utilities o en abstracts
+@import './scss/utilities/functions';
+@import './scss/utilities/variables';
+@import './scss/utilities/mixins';
+@import './scss/utilities/maps';
+
+// base
+@import './scss/base/fonts';
+@import './scss/base/reset';
+
+// views
+@import './scss/views/home';
+
+// layout
+@import './scss/layout/header';
+@import './scss/layout/main';
+@import './scss/layout/footer';
+
+@import './scss/components/navBar.scss';
+@import './scss/components/itemListContainer.scss';
+@import './scss/components/componente3.scss';
+
