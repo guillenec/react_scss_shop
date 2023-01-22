@@ -1,4 +1,5 @@
 import CartWidget from "../cardtWidget/cartWidget"
+import Toggle from "../toggle/toggle"
 
 //objetivo : crear el menú e-comerce de tu proyecto
 const NavBar = () => {
@@ -20,11 +21,7 @@ const NavBar = () => {
                 <CartWidget />
             </section>
             
-            <div className="toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+            <Toggle />
         </nav>
         </>
     )
